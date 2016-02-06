@@ -1,0 +1,9 @@
+{
+  "name": "cpseed",
+  "private": true,
+  "dependencies": {
+    "paper-elements": "~1.0.7",
+    "page": "~1.6.4",
+    "iron-elements": "~1.0.8"
+  }
+}
