@@ -26,13 +26,13 @@
         </paper-toolbar>
                 
         <!-- Menu Items --> 
-        <paper-menu class="list" on-iron-select="onMenuSelect">
-            <a href="/first-section">
+        <paper-menu class="list" attr-for-selected="data-route" selected="{{route}}" on-iron-select="onMenuSelect">
+            <a data-route="first-section" href="/first-section">
               <iron-icon icon="home"></iron-icon>
               <span>First section</span>
             </a>
 
-            <a href="/second-section">
+            <a data-route="second-section" href="/second-section">
               <iron-icon icon="info"></iron-icon>
               <span>Second section</span>
             </a>
